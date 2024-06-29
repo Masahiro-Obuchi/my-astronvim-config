@@ -37,4 +37,7 @@ return {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
+  i = {
+    ["<C-a>"] = { "copilot#Accept(<Tab>)", silent = true, expr = true, noremap = true, replace_keycodes = false },
+  }
 }
